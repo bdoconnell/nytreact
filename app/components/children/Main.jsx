@@ -79,7 +79,7 @@ var Main = React.createClass({
           <h4 className="text-center">Search for and annotate articles of interest. Click on headlines to learn more.</h4>
         </div>
 
-        {/* <img style={ {width: "70%"} } src="img/nyt-header.svg" alt="The New York Times"/> */}
+        
 
         <Query _setSearchFeilds={this._setSearchFeilds} />
         <Search apiResults={this.state.apiResults} _resetMongoResults={this._resetMongoResults} />
